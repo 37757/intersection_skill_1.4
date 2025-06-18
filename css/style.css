@@ -1,0 +1,19 @@
+main{
+width: 60%;
+height: 100%;
+margin: 0 auto;
+opacity: 0;
+}
+
+.fill{
+    height: 100vh;
+    background: blue;
+    width: 100%;
+}
+
+.a-popup{
+    animation-name: popup;
+    animation-duration: 0.8;
+    animation-fill-mode: both;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
